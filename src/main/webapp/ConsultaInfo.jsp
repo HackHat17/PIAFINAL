@@ -26,7 +26,7 @@
         try{
             
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            Connection con = DriverManager.getConnection("jdbc:sqlserver://pia-segbd.database.windows.net;DatabaseName = piasegbd1;user=EricCor17;password=Ebcb.1617208");
+            Connection con = DriverManager.getConnection("jdbc:sqlserver://pia-segbd.database.windows.net;DatabaseName = piasegbd1;user=;password=");
           
             Statement st = con.createStatement();
             
